@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h5 {
+font-family: "Lobster", cursive;
+}
+
+.card-img-overlay h5 {
+color: white;
+background-color: rgba(0, 0, 0, 0.5);
+}
