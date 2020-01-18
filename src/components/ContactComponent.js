@@ -5,7 +5,7 @@ import {
   Button,
   Label,
   Col,
-  Row
+  Row,
 } from "reactstrap";
 import { Link } from "react-router-dom";
 import { Control, LocalForm, Errors } from "react-redux-form";
@@ -41,7 +41,7 @@ class Contact extends Component {
   }
 
   handleSubmit(values) {
-    console.log("Current state is:: " + JSON.stringify(values));
+    console.log("Current state is: " + JSON.stringify(values));
     alert("Current state is: " + JSON.stringify(values));
   }
 
