@@ -34,13 +34,14 @@ function RenderCampsite({ campsite }) {
           in
           transformProps={{
               exitTransform: 'scale(0.5) translateY(-50%)'
-          }}>
+          }}
+      >
           <animated.div
       class="card"
       onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
       onMouseLeave={() => set({ xys: [0, 0, 1] })}
       style={{ transform: props.xys.interpolate(trans) }}
-         >
+          >
             <Card>
                 <CardImg top src={baseUrl + campsite.image} alt={campsite.name} />
                 <CardBody>
